@@ -5,7 +5,7 @@ Run (only Docker needed):
     docker compose up --build
 
 - Site: http://localhost:8080  (/pagination and /infinite)
-- Prometheus: http://localhost:9090  (scrapes backend:3001/metrics every 5s)
+- Prometheus: http://localhost:9095 (scrapes backend:3001/metrics every 5s)
 
 Use both pages (click cards, browse, close the tab), then compare in Prometheus.
 Every metric has a `mode` label: `pagination` or `infinite`.
