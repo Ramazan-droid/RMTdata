@@ -23,7 +23,7 @@ const ITEMS = Array.from({ length: 500 }, (_, i) => ({
 }));
 
 // ---------- backend metrics ----------
-const httpDur = new client.Histogram({ name: 'http_request_duration_seconds', help: 'HTTP latency', labelNames: ['method', 'route', 'status'], buckets: [.01, .05, .1, .2, .3, .5, 1] });
+const httpDur = new client.Histogram({ name: 'http_request_duration_seconds', help: 'HTTP latency', labelNames: ['method', 'route', 'status','mode'], buckets: [.01, .05, .1, .2, .3, .5, 1] });
 const itemReqs = new client.Counter({ name: 'items_requests_total', help: 'Item list requests', labelNames: L });
 const itemsServed = new client.Counter({ name: 'items_served_total', help: 'Items sent to clients', labelNames: L });
 const bytesServed = new client.Counter({ name: 'items_response_bytes_total', help: 'Payload bytes of item responses', labelNames: L });
@@ -42,7 +42,7 @@ const EVENT_TYPES = ['session_start', 'load', 'item_click', 'first_click', 'sess
 
 app.use((req, res, next) => {
   const end = httpDur.startTimer();
-  res.on('finish', () => end({ method: req.method, route: req.route?.path || req.path, status: res.statusCode }));
+  res.on('finish', () => end({ method: req.method, route: req.route?.path || req.path, status: res.statusCode,mode: modeOf(req.query.mode || req.body?.mode) }));
   next();
 });
 
