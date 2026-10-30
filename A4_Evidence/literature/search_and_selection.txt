@@ -1,0 +1,20 @@
+TARGETED LITERATURE UPDATE — 29 OCTOBER 2026
+This was a targeted verification/update, not an exhaustive systematic review. No PRISMA count is claimed.
+
+Search families used in web search and publisher/author repositories:
+- "pagination scrolling reading comprehension smartphone study full text"
+- "scrolling pagination meta analysis Salmeron 2024 Clinton Lisell 2026"
+- "Is Pagination Better than Scrolling when Reading on a Phone"
+- Exact titles and DOI searches for the original A2 candidates and technical sources.
+
+Inclusion: publication year 2022–2026; identifiable peer-reviewed journal/conference publication; a full method and results section accessible in publisher HTML/PDF or an author/institutional manuscript; explicit relevance to navigation outcomes, technical benchmarking or reproducibility. Official metric documentation is listed separately and not counted as peer-reviewed research.
+
+Exclusion: abstract/record only, full text not retrieved, unverified peer-review status for preprints, no sufficiently traceable benchmark method for the intended technical comparison, or publication outside the stated window. Context sources are not used as direct evidence of a loading-strategy effect.
+
+Active set: 11 journal/conference publications plus 5 official documentation references. Ten original A2 selected/rejected candidates are accounted for in a2_selection_audit.csv. All eight entries retained in the A2 matrix are represented there.
+
+Access versions: Salmeron is the full author manuscript, explicitly labelled pre-print on its first page; cite the published 2024 paper and use author-PDF page locators. Joshi and van Riet are author copies. Krenca was inspected as full publisher HTML; no local PDF download is claimed. Haverkamp uses the 2023 journal issue year, not its 2022 online-first year. Clinton-Lisell uses the actual 2026 publication year, not the year embedded in its DOI.
+
+Interpretation rules: compare the actual outcome, intervention and population. Do not turn a difference of significance into proof of opposite effects. Do not equate human working memory with browser JavaScript heap. The verified meta-analytic discrepancy is retained with its coverage/power limitations; two additional comparisons are explicitly classified as an interpretive disagreement or a non-contradictory boundary check.
+
+The CSV provides direct full-text links and section/page locators. Full papers are not redistributed in this bundle; access rights differ between publisher and author copies. Researcher access is distinct from permission to republish.

@@ -1,0 +1,50 @@
+[
+  {
+    "run_id": "D01_pagination",
+    "pair": 1,
+    "mode": "pagination",
+    "start_epoch_ms": 1793297969618,
+    "end_epoch_ms": 1793297976445,
+    "initial_batch_ready_ms": 237.89999997615814,
+    "api_count": 42,
+    "api_errors": 0,
+    "rendered_final_cards": 8,
+    "total_records": 500,
+    "browser_errors": [],
+    "paint": {
+      "fcp": 176,
+      "lcp_entries": [
+        {
+          "type": "largest-contentful-paint",
+          "name": "",
+          "startTime": 176,
+          "size": 13287
+        }
+      ]
+    }
+  },
+  {
+    "run_id": "D01_infinite",
+    "pair": 1,
+    "mode": "infinite",
+    "start_epoch_ms": 1793297976730,
+    "end_epoch_ms": 1793297983617,
+    "initial_batch_ready_ms": 248.19999998807907,
+    "api_count": 42,
+    "api_errors": 0,
+    "rendered_final_cards": 500,
+    "total_records": 500,
+    "browser_errors": [],
+    "paint": {
+      "fcp": 56,
+      "lcp_entries": [
+        {
+          "type": "largest-contentful-paint",
+          "name": "",
+          "startTime": 56,
+          "size": 13287
+        }
+      ]
+    }
+  }
+]

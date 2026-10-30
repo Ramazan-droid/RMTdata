@@ -1,0 +1,33 @@
+{
+  "timestamp_utc": "2026-10-29T18:06:21.876Z",
+  "node": "v24.19.0",
+  "browser": "156.0.4314.50",
+  "browser_channel": "msedge",
+  "headless": true,
+  "viewport": {
+    "width": 800,
+    "height": 500
+  },
+  "cpu": "13th Gen Intel(R) Core(TM) i5-13420H",
+  "logical_cpus": 12,
+  "total_ram_bytes": 16858472448,
+  "os": "Windows_NT",
+  "os_release": "10.0.26300",
+  "hardware_claim": "This host was used for supplementary A4 runs only, not the historical A3 runs.",
+  "source_commit": "fc9c818b5e46a2c7b2e43b41c155b813a66f6a08",
+  "pairs": 1,
+  "pages_per_run": 42,
+  "batch_size": 12,
+  "input_records": 500,
+  "checkpoints": [
+    12,
+    120,
+    252,
+    500
+  ],
+  "seed_rule": "1000 + pair; identical API artificial-delay seed for both conditions within pair",
+  "order_rule": "pagination first on odd pair; infinite first on even pair",
+  "network": "loopback HTTP; no network or CPU throttling",
+  "gc_rule": "force GC only at checkpoints; snapshot task timing captured before GC",
+  "pilot": true
+}

@@ -1,0 +1,8 @@
+{
+  "warmup_contexts": 2,
+  "conditions": [
+    "pagination",
+    "infinite"
+  ],
+  "purpose": "Browser and asset initialization only; not included in measured trials."
+}

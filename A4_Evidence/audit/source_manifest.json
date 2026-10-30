@@ -1,0 +1,14 @@
+[
+  {
+    "path": "data/raw/backend_metrics.csv",
+    "commit": "fc9c818b5e46a2c7b2e43b41c155b813a66f6a08",
+    "sha256": "029d35ad8e8bce2f49853ac1540ff7aa7baa709ea85543a3d0a59be4e5145409",
+    "url": "https://github.com/Ramazan-droid/RMTdata/blob/fc9c818b5e46a2c7b2e43b41c155b813a66f6a08/data/raw/backend_metrics.csv"
+  },
+  {
+    "path": "data/raw/frontend_metrics.csv",
+    "commit": "fc9c818b5e46a2c7b2e43b41c155b813a66f6a08",
+    "sha256": "c09d37b9e43ed4acf613aef18845177c9e25dd32b1ea0e3d57611ff459118df7",
+    "url": "https://github.com/Ramazan-droid/RMTdata/blob/fc9c818b5e46a2c7b2e43b41c155b813a66f6a08/data/raw/frontend_metrics.csv"
+  }
+]

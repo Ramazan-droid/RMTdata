@@ -1,0 +1,63 @@
+[
+  {
+    "id": "vanRiet2023",
+    "url": "https://jaspervanriet.nl/assets/JSS.pdf",
+    "status": "PDF saved",
+    "bytes": 7119165
+  },
+  {
+    "id": "Gavrila2022",
+    "url": "https://conferences.computer.org/icebe/2022/icebe2022-proceedings/Study%20and%20Experiments%20on%20Data%20Pagination%20and%20Calculation%20of%20Simple%20and%20Matrix%20Totals.pdf",
+    "status": "PDF saved",
+    "bytes": 239528
+  },
+  {
+    "id": "Herlihy2022",
+    "url": "https://arrow.tudublin.ie/cgi/viewcontent.cgi?article=1287&context=scschcomdis",
+    "status": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "Sudda2024",
+    "url": "https://digitalcommons.mtu.edu/cgi/viewcontent.cgi?article=2845&context=etdr",
+    "status": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "Martha2023",
+    "url": "https://papers.ssrn.com/sol3/Delivery.cfm/5529281.pdf?abstractid=5529281&mirid=1",
+    "status": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "Clark2025",
+    "url": "https://papers.ssrn.com/sol3/Delivery.cfm/5525520.pdf?abstractid=5525520&mirid=1",
+    "status": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "Jain2022",
+    "url": "https://ijcem.in/wp-content/uploads/OPTIMIZING-WEB-PERFORMANCE-WITH-LAZY-LOADING-AND-CODE-SPLITTING.pdf",
+    "status": "PDF saved",
+    "bytes": 370092
+  },
+  {
+    "id": "Orlivskyi2021",
+    "url": "https://ieeexplore.ieee.org/stampPDF/getPDF.jsp?tp=&arnumber=9575139",
+    "status": "HTTP Error 418: Unknown Code"
+  },
+  {
+    "id": "Alnuhait2024",
+    "url": "https://www.science-gate.com/IJAAS/Articles/2024/2024-11-09/1021833ijaas202409023.pdf",
+    "status": "PDF saved",
+    "bytes": 1354107
+  },
+  {
+    "id": "Demir2022",
+    "url": "https://internet-sicherheit.de/wp-content/uploads/2023/03/Reproducibility_and_Replicability_of_Web_Measurement_Studies_AC.pdf",
+    "status": "PDF saved",
+    "bytes": 422044
+  },
+  {
+    "id": "Demir2023",
+    "url": "https://ndemir.com/publications/23imc-similarity-of-web-measurements.pdf",
+    "status": "PDF saved",
+    "bytes": 1628760
+  }
+]

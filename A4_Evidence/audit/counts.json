@@ -1,0 +1,23 @@
+{
+  "commit": "fc9c818b5e46a2c7b2e43b41c155b813a66f6a08",
+  "backend_rows": 250,
+  "backend_valid_values": 249,
+  "backend_invalid_values": 1,
+  "backend_unescaped_query_rows": 100,
+  "backend_snapshots_per_label": {
+    "infinite": 25,
+    "pagination": 25
+  },
+  "frontend_raw_rows": 100,
+  "frontend_primary_rows": 90,
+  "frontend_sites": 10,
+  "frontend_profiles": 20,
+  "frontend_corrections": 1,
+  "frontend_excluded_google_rows": 10,
+  "original_empty_cells_backend": 0,
+  "exact_duplicate_backend_rows": 0,
+  "exact_duplicate_frontend_rows": 0,
+  "backend_missing_rate": 0.4,
+  "independent_backend_trial_count": "not identifiable from cumulative snapshots",
+  "frontend_repeated_identical_url_profile_trials": 1
+}

@@ -1,0 +1,20 @@
+A4 SUPPLEMENTARY COLLECTION PROTOCOL
+Recorded after the instrument pilot and before the main measurements on 29 October 2026.
+
+Purpose: repair the unequal workloads and absent browser resource observations in the original A3 archive. This is a new supplementary experiment, not a claim about what was collected for A3.
+
+Source: original React components and 500-record archive at commit fc9c818b5e46a2c7b2e43b41c155b813a66f6a08. Both request a default batch of 12. No application data-loading or rendering rule is changed. A backend wrapper adds a reset endpoint, request logs and a seeded pseudo-random artificial delay; the same seed is reset for each condition within a pair. Production Vite build, with resolved packages preserved in pnpm-lock.yaml files.
+
+Design: 20 measured pairs, 40 fresh browser contexts, 42 completed fetches and 500 delivered records in each context. Odd pairs run pagination first; even pairs run infinite first. Single automated client, loopback network, no emulated network or CPU throttling; fixed 800 x 500 CSS-pixel viewport. Two initial warm-up contexts are excluded. A pilot of two full runs is stored separately.
+
+Measurement checkpoints: 12, 120, 252 and 500 cumulative delivered records. Each page response is logged. DOM card count and document element count are read after each completed batch. CDP provides JS heap used, TaskDuration, ScriptDuration, LayoutDuration and RecalcStyleDuration. At checkpoints, forced GC is followed by a second heap reading. This post-GC heap estimates live JS heap, not process RSS or all browser memory. Do not describe TaskDuration as CPU utilization.
+
+Batch-ready latency: browser time from programmatically clicking Next or scrolling to the bottom until the required first/last IDs are rendered and two animation frames have passed. A MutationObserver detects DOM completion without continuous polling. API response time is separately logged. Initial FCP and LCP candidates are recorded, but LCP must not be interpreted as a metric of prolonged scroll degradation. No synthetic click value is labelled INP.
+
+Before-main analysis choices: aggregate to run level, compare the two runs within each pair and report all runs. Main outcomes: post-GC heap at the final checkpoint, retained cards and elements, sum of per-batch main-thread task increments after the initial batch, and mean batch-ready latency over batches 2 to 42. Report mean, SD and range per condition, with paired mean differences and a paired bootstrap 95% interval using 10,000 resamples and seed 291026. The interval reflects run variation on this host, not other machines. Original A3 meaningful margins of 0.5 s LCP / 50 ms INP remain unchanged; do not invent a prior heap or CPU threshold.
+
+Failure rule: a run is invalid if it does not complete 42 successful fetches delivering exactly 500 records or if the browser reports an exception. Preserve failures and their reasons. Do not replace an unfavourable but valid run. Exclude pilot and warm-up only. Sensitivity: recompute paired contrasts excluding the first pair; no post-hoc outlier trimming.
+
+Pilot outcome: both conditions completed 42 successful API requests and delivered 500 records; final retained cards were 8 for pagination and 500 for infinite scroll. This is not part of the main sample. During setup, the first browser launch failed inside the sandbox; the next attempt could not reach the isolated local gateway. Both happened before collecting pilot data. The browser and localhost servers were then run in the same host network context. DOM completion was changed from frame polling to a MutationObserver before the successful pilot to reduce instrument overhead.
+
+Scope: measurements are automated supplementary observations collected with Codex tool assistance. Do not attribute these runs to manual work by the students or backdate them. The report must distinguish them from the original team archive. Course restrictions on AI use still apply.

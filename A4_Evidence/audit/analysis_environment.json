@@ -1,0 +1,12 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "os": "Windows",
+  "os_release": "11",
+  "packages": {
+    "pandas": "3.0.1",
+    "numpy": "2.3.5",
+    "matplotlib": "3.11.2",
+    "Pillow": "12.3.0"
+  },
+  "purpose": "Calculation environment only; not the original measurement hardware."
+}

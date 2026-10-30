@@ -1,0 +1,11 @@
+﻿A2 candidate,decision,reason
+van Riet et al. (2023),Retain,"Full text checked; industrial context, not a direct replication."
+Gavrila et al. (2022),Retain,Full proceedings text checked; database outcome differs from browser outcome.
+Orlivskyi et al. (2021),Exclude from evidence,Full text not retrieved; outside the core 2022–2026 publication window.
+Martha (manuscript dated 2023; posted 2025),Exclude from evidence,SSRN record only; full-text retrieval failed and peer-review status unverified.
+Sudda (2024),Exclude from evidence,Master’s report; accessible record but full-text retrieval failed. Not counted as peer-reviewed.
+Clark (2025),Exclude from evidence,SSRN record only; full-text retrieval failed and peer-review status unverified.
+Herlihy (2022),Exclude from evidence,"Dissertation record/abstract available, full text not retrieved. Abstract results are not reused."
+Jain (2022),Exclude from evidence,"Full text available, but benchmark repetition/environment details are insufficient for this comparison. DOI attribution in A2 was unreliable."
+"Alnuhait et al. (2024), rejected in A2",Reinstate for method context,"Full text checked; relevant to performance-test design, not proof about scrolling."
+"Sharma and Murano (2020), listed as 2021 in A2",Exclude from current core,Publication-year correction; outside 2022–2026. Earlier usability work is not a current technical benchmark.

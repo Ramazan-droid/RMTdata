@@ -1,0 +1,251 @@
+run_id,page_type,metric_name,value,unit,query
+001,pagination,http_request_duration_seconds,0.27749999999999997,sec,histogram_quantile(0.95, sum by (le, mode)(http_request_duration_seconds_bucket{route="/api/items"}))
+001,pagination,ux_load_latency_seconds,0.2162000000178814,sec,sum by (mode)(ux_load_latency_seconds_sum) / sum by (mode)(ux_load_latency_seconds_count)
+001,pagination,items_requests_per_session,27,Requests per session,sum by (mode)(items_requests_total) / sum by (mode)(ux_events_total{type="session_start"})
+001,pagination,ux_load_latency_seconds,0.285,sec,histogram_quantile(0.95, sum by (le, mode)(ux_load_latency_seconds_bucket))
+001,pagination,items_response_kb_per_session,49.17919921875,Kilobytes per session,sum by (mode)(items_response_bytes_total) / sum by (mode)(ux_events_total{type="session_start"}) / 1024
+002,pagination,http_request_duration_seconds,0.27818181818181814,sec,histogram_quantile(0.95, sum by (le, mode)(http_request_duration_seconds_bucket{route="/api/items"}))
+002,pagination,ux_load_latency_seconds,0.2162000000178814,sec,sum by (mode)(ux_load_latency_seconds_sum) / sum by (mode)(ux_load_latency_seconds_count)
+002,pagination,items_requests_per_session,48,Requests per session,sum by (mode)(items_requests_total) / sum by (mode)(ux_events_total{type="session_start"})
+002,pagination,ux_load_latency_seconds,0.29,sec,histogram_quantile(0.95, sum by (le, mode)(ux_load_latency_seconds_bucket))
+002,pagination,items_response_kb_per_session,87.45849609375,Kilobytes per session,sum by (mode)(items_response_bytes_total) / sum by (mode)(ux_events_total{type="session_start"}) / 1024
+003,pagination,http_request_duration_seconds,0.27699999999999997,sec,histogram_quantile(0.95, sum by (le, mode)(http_request_duration_seconds_bucket{route="/api/items"}))
+003,pagination,ux_load_latency_seconds,0.2162000000178814,sec,sum by (mode)(ux_load_latency_seconds_sum) / sum by (mode)(ux_load_latency_seconds_count)
+003,pagination,items_requests_per_session,69,Requests per session,sum by (mode)(items_requests_total) / sum by (mode)(ux_events_total{type="session_start"})
+003,pagination,ux_load_latency_seconds,0.285,sec,histogram_quantile(0.95, sum by (le, mode)(ux_load_latency_seconds_bucket))
+003,pagination,items_response_kb_per_session,125.73779296875,Kilobytes per session,sum by (mode)(items_response_bytes_total) / sum by (mode)(ux_events_total{type="session_start"}) / 1024
+004,pagination,http_request_duration_seconds,0.2735294117647059,sec,histogram_quantile(0.95, sum by (le, mode)(http_request_duration_seconds_bucket{route="/api/items"}))
+004,pagination,ux_load_latency_seconds,0.2162000000178814,sec,sum by (mode)(ux_load_latency_seconds_sum) / sum by (mode)(ux_load_latency_seconds_count)
+004,pagination,items_requests_per_session,90,Requests per session,sum by (mode)(items_requests_total) / sum by (mode)(ux_events_total{type="session_start"})
+004,pagination,ux_load_latency_seconds,0.29,sec,histogram_quantile(0.95, sum by (le, mode)(ux_load_latency_seconds_bucket))
+004,pagination,items_response_kb_per_session,164.01708984375,Kilobytes per session,sum by (mode)(items_response_bytes_total) / sum by (mode)(ux_events_total{type="session_start"}) / 1024
+005,pagination,http_request_duration_seconds,0.27224999999999994,sec,histogram_quantile(0.95, sum by (le, mode)(http_request_duration_seconds_bucket{route="/api/items"}))
+005,pagination,ux_load_latency_seconds,0.2162000000178814,sec,sum by (mode)(ux_load_latency_seconds_sum) / sum by (mode)(ux_load_latency_seconds_count)
+005,pagination,items_requests_per_session,21,Requests per session,sum by (mode)(items_requests_total) / sum by (mode)(ux_events_total{type="session_start"})
+005,pagination,ux_load_latency_seconds,0.29,sec,histogram_quantile(0.95, sum by (le, mode)(ux_load_latency_seconds_bucket))
+005,pagination,items_response_kb_per_session,202.29638671875,Kilobytes per session,sum by (mode)(items_response_bytes_total) / sum by (mode)(ux_events_total{type="session_start"}) / 1024
+006,pagination,http_request_duration_seconds,0.27306122448979586,sec,histogram_quantile(0.95, sum by (le, mode)(http_request_duration_seconds_bucket{route="/api/items"}))
+006,pagination,ux_load_latency_seconds,0.2162000000178714,sec,sum by (mode)(ux_load_latency_seconds_sum) / sum by (mode)(ux_load_latency_seconds_count)
+006,pagination,items_requests_per_session,21,Requests per session,sum by (mode)(items_requests_total) / sum by (mode)(ux_events_total{type="session_start"})
+006,pagination,ux_load_latency_seconds,0.29,sec,histogram_quantile(0.95, sum by (le, mode)(ux_load_latency_seconds_bucket))
+006,pagination,items_response_kb_per_session,40.57568359375,Kilobytes per session,sum by (mode)(items_response_bytes_total) / sum by (mode)(ux_events_total{type="session_start"}) / 1024
+007,pagination,http_request_duration_seconds,0.2736206896551724,sec,histogram_quantile(0.95, sum by (le, mode)(http_request_duration_seconds_bucket{route="/api/items"}))
+007,pagination,ux_load_latency_seconds,0.2162000000178814,sec,sum by (mode)(ux_load_latency_seconds_sum) / sum by (mode)(ux_load_latency_seconds_count)
+007,pagination,items_requests_per_session,21,Requests per session,sum by (mode)(items_requests_total) / sum by (mode)(ux_events_total{type="session_start"})
+007,pagination,ux_load_latency_seconds,0.29,sec,histogram_quantile(0.95, sum by (le, mode)(ux_load_latency_seconds_bucket))
+007,pagination,items_response_kb_per_session,78.85498046875,Kilobytes per session,sum by (mode)(items_response_bytes_total) / sum by (mode)(ux_events_total{type="session_start"}) / 1024
+008,pagination,http_request_duration_seconds,0.2744117647058823,sec,histogram_quantile(0.95, sum by (le, mode)(http_request_duration_seconds_bucket{route="/api/items"}))
+008,pagination,ux_load_latency_seconds,0.2162000000178814,sec,sum by (mode)(ux_load_latency_seconds_sum) / sum by (mode)(ux_load_latency_seconds_count)
+008,pagination,items_requests_per_session,22,Requests per session,sum by (mode)(items_requests_total) / sum by (mode)(ux_events_total{type="session_start"})
+008,pagination,ux_load_latency_seconds,0.285,sec,histogram_quantile(0.95, sum by (le, mode)(ux_load_latency_seconds_bucket))
+008,pagination,items_response_kb_per_session,27.13427734375,Kilobytes per session,sum by (mode)(items_response_bytes_total) / sum by (mode)(ux_events_total{type="session_start"}) / 1024
+009,pagination,http_request_duration_seconds,0.275,sec,histogram_quantile(0.95, sum by (le, mode)(http_request_duration_seconds_bucket{route="/api/items"}))
+009,pagination,ux_load_latency_seconds,0.2162000000178814,sec,sum by (mode)(ux_load_latency_seconds_sum) / sum by (mode)(ux_load_latency_seconds_count)
+009,pagination,items_requests_per_session,21,Requests per session,sum by (mode)(items_requests_total) / sum by (mode)(ux_events_total{type="session_start"})
+009,pagination,ux_load_latency_seconds,0.285,sec,histogram_quantile(0.95, sum by (le, mode)(ux_load_latency_seconds_bucket))
+009,pagination,items_response_kb_per_session,28.41357421875,Kilobytes per session,sum by (mode)(items_response_bytes_total) / sum by (mode)(ux_events_total{type="session_start"}) / 1024
+010,pagination,http_request_duration_seconds,0.2754545454545454,sec,histogram_quantile(0.95, sum by (le, mode)(http_request_duration_seconds_bucket{route="/api/items"}))
+010,pagination,ux_load_latency_seconds,0.2162000000178814,sec,sum by (mode)(ux_load_latency_seconds_sum) / sum by (mode)(ux_load_latency_seconds_count)
+010,pagination,items_requests_per_session,21,Requests per session,sum by (mode)(items_requests_total) / sum by (mode)(ux_events_total{type="session_start"})
+010,pagination,ux_load_latency_seconds,0.29,sec,histogram_quantile(0.95, sum by (le, mode)(ux_load_latency_seconds_bucket))
+010,pagination,items_response_kb_per_session,38.69287109375,Kilobytes per session,sum by (mode)(items_response_bytes_total) / sum by (mode)(ux_events_total{type="session_start"}) / 1024
+011,pagination,http_request_duration_seconds,0.2765346534653465,sec,histogram_quantile(0.95, sum by (le, mode)(http_request_duration_seconds_bucket{route="/api/items"}))
+011,pagination,ux_load_latency_seconds,0.2162000000178814,sec,sum by (mode)(ux_load_latency_seconds_sum) / sum by (mode)(ux_load_latency_seconds_count)
+011,pagination,items_requests_per_session,21,Requests per session,sum by (mode)(items_requests_total) / sum by (mode)(ux_events_total{type="session_start"})
+011,pagination,ux_load_latency_seconds,0.29,sec,histogram_quantile(0.95, sum by (le, mode)(ux_load_latency_seconds_bucket))
+011,pagination,items_response_kb_per_session,35.97216796875,Kilobytes per session,sum by (mode)(items_response_bytes_total) / sum by (mode)(ux_events_total{type="session_start"}) / 1024
+012,pagination,http_request_duration_seconds,0.27654545454545454,sec,histogram_quantile(0.95, sum by (le, mode)(http_request_duration_seconds_bucket{route="/api/items"}))
+012,pagination,ux_load_latency_seconds,0.2162000000178814,sec,sum by (mode)(ux_load_latency_seconds_sum) / sum by (mode)(ux_load_latency_seconds_count)
+012,pagination,items_requests_per_session,22,Requests per session,sum by (mode)(items_requests_total) / sum by (mode)(ux_events_total{type="session_start"})
+012,pagination,ux_load_latency_seconds,0.285,sec,histogram_quantile(0.95, sum by (le, mode)(ux_load_latency_seconds_bucket))
+012,pagination,items_response_kb_per_session,39.25146484375,Kilobytes per session,sum by (mode)(items_response_bytes_total) / sum by (mode)(ux_events_total{type="session_start"}) / 1024
+013,pagination,http_request_duration_seconds,0.27749999999999997,sec,histogram_quantile(0.95, sum by (le, mode)(http_request_duration_seconds_bucket{route="/api/items"}))
+013,pagination,ux_load_latency_seconds,0.2162000000178814,sec,sum by (mode)(ux_load_latency_seconds_sum) / sum by (mode)(ux_load_latency_seconds_count)
+013,pagination,items_requests_per_session,27,Requests per session,sum by (mode)(items_requests_total) / sum by (mode)(ux_events_total{type="session_start"})
+013,pagination,ux_load_latency_seconds,0.285,sec,histogram_quantile(0.95, sum by (le, mode)(ux_load_latency_seconds_bucket))
+013,pagination,items_response_kb_per_session,49.17919921875,Kilobytes per session,sum by (mode)(items_response_bytes_total) / sum by (mode)(ux_events_total{type="session_start"}) / 1024
+014,pagination,http_request_duration_seconds,0.27749999999999997,sec,histogram_quantile(0.95, sum by (le, mode)(http_request_duration_seconds_bucket{route="/api/items"}))
+014,pagination,ux_load_latency_seconds,0.2162000000178814,sec,sum by (mode)(ux_load_latency_seconds_sum) / sum by (mode)(ux_load_latency_seconds_count)
+014,pagination,items_requests_per_session,27,Requests per session,sum by (mode)(items_requests_total) / sum by (mode)(ux_events_total{type="session_start"})
+014,pagination,ux_load_latency_seconds,0.285,sec,histogram_quantile(0.95, sum by (le, mode)(ux_load_latency_seconds_bucket))
+014,pagination,items_response_kb_per_session,49.17919921875,Kilobytes per session,sum by (mode)(items_response_bytes_total) / sum by (mode)(ux_events_total{type="session_start"}) / 1024
+015,pagination,http_request_duration_seconds,0.277499999998997,sec,histogram_quantile(0.95, sum by (le, mode)(http_request_duration_seconds_bucket{route="/api/items"}))
+015,pagination,ux_load_latency_seconds,0.2162000000178814,sec,sum by (mode)(ux_load_latency_seconds_sum) / sum by (mode)(ux_load_latency_seconds_count)
+015,pagination,items_requests_per_session,23,Requests per session,sum by (mode)(items_requests_total) / sum by (mode)(ux_events_total{type="session_start"})
+015,pagination,ux_load_latency_seconds,0.29,sec,histogram_quantile(0.95, sum by (le, mode)(ux_load_latency_seconds_bucket))
+015,pagination,items_response_kb_per_session,29.17919921875,Kilobytes per session,sum by (mode)(items_response_bytes_total) / sum by (mode)(ux_events_total{type="session_start"}) / 1024
+016,pagination,http_request_duration_seconds,0.29999999999997,sec,histogram_quantile(0.95, sum by (le, mode)(http_request_duration_seconds_bucket{route="/api/items"}))
+016,pagination,ux_load_latency_seconds,0.2162000000178814,sec,sum by (mode)(ux_load_latency_seconds_sum) / sum by (mode)(ux_load_latency_seconds_count)
+016,pagination,items_requests_per_session,21,Requests per session,sum by (mode)(items_requests_total) / sum by (mode)(ux_events_total{type="session_start"})
+016,pagination,ux_load_latency_seconds,0.285,sec,histogram_quantile(0.95, sum by (le, mode)(ux_load_latency_seconds_bucket))
+016,pagination,items_response_kb_per_session,31.17919921875,Kilobytes per session,sum by (mode)(items_response_bytes_total) / sum by (mode)(ux_events_total{type="session_start"}) / 1024
+017,pagination,http_request_duration_seconds,0.27749999999999997,sec,histogram_quantile(0.95, sum by (le, mode)(http_request_duration_seconds_bucket{route="/api/items"}))
+017,pagination,ux_load_latency_seconds,0.2162000000178814,sec,sum by (mode)(ux_load_latency_seconds_sum) / sum by (mode)(ux_load_latency_seconds_count)
+017,pagination,items_requests_per_session,22,Requests per session,sum by (mode)(items_requests_total) / sum by (mode)(ux_events_total{type="session_start"})
+017,pagination,ux_load_latency_seconds,0.285,sec,histogram_quantile(0.95, sum by (le, mode)(ux_load_latency_seconds_bucket))
+017,pagination,items_response_kb_per_session,49.17919921875,Kilobytes per session,sum by (mode)(items_response_bytes_total) / sum by (mode)(ux_events_total{type="session_start"}) / 1024
+018,pagination,http_request_duration_seconds,0.2769421487603306,sec,histogram_quantile(0.95, sum by (le, mode)(http_request_duration_seconds_bucket{route="/api/items"}))
+018,pagination,ux_load_latency_seconds,0.2162000000178814,sec,sum by (mode)(ux_load_latency_seconds_sum) / sum by (mode)(ux_load_latency_seconds_count)
+018,pagination,items_requests_per_session,21,Requests per session,sum by (mode)(items_requests_total) / sum by (mode)(ux_events_total{type="session_start"})
+018,pagination,ux_load_latency_seconds,0.29,sec,histogram_quantile(0.95, sum by (le, mode)(ux_load_latency_seconds_bucket))
+018,pagination,items_response_kb_per_session,38.53076171875,Kilobytes per session,sum by (mode)(items_response_bytes_total) / sum by (mode)(ux_events_total{type="session_start"}) / 1024
+019,pagination,http_request_duration_seconds,0.0.2770992366412214,sec,histogram_quantile(0.95, sum by (le, mode)(http_request_duration_seconds_bucket{route="/api/items"}))
+019,pagination,ux_load_latency_seconds,0.2162000000178814,sec,sum by (mode)(ux_load_latency_seconds_sum) / sum by (mode)(ux_load_latency_seconds_count)
+019,pagination,items_requests_per_session,21,Requests per session,sum by (mode)(items_requests_total) / sum by (mode)(ux_events_total{type="session_start"})
+019,pagination,ux_load_latency_seconds,0.29,sec,histogram_quantile(0.95, sum by (le, mode)(ux_load_latency_seconds_bucket))
+019,pagination,items_response_kb_per_session,16.17919921875,Kilobytes per session,sum by (mode)(items_response_bytes_total) / sum by (mode)(ux_events_total{type="session_start"}) / 1024
+020,pagination,http_request_duration_seconds,0.2772999999999722,sec,histogram_quantile(0.95, sum by (le, mode)(http_request_duration_seconds_bucket{route="/api/items"}))
+020,pagination,ux_load_latency_seconds,0.2162000000178814,sec,sum by (mode)(ux_load_latency_seconds_sum) / sum by (mode)(ux_load_latency_seconds_count)
+020,pagination,items_requests_per_session,20,Requests per session,sum by (mode)(items_requests_total) / sum by (mode)(ux_events_total{type="session_start"})
+020,pagination,ux_load_latency_seconds,0.285,sec,histogram_quantile(0.95, sum by (le, mode)(ux_load_latency_seconds_bucket))
+020,pagination,items_response_kb_per_session,21.17915321875,Kilobytes per session,sum by (mode)(items_response_bytes_total) / sum by (mode)(ux_events_total{type="session_start"}) / 1024
+021,pagination,http_request_duration_seconds,0.27999999999997,sec,histogram_quantile(0.95, sum by (le, mode)(http_request_duration_seconds_bucket{route="/api/items"}))
+021,pagination,ux_load_latency_seconds,0.2162000000178814,sec,sum by (mode)(ux_load_latency_seconds_sum) / sum by (mode)(ux_load_latency_seconds_count)
+021,pagination,items_requests_per_session,21,Requests per session,sum by (mode)(items_requests_total) / sum by (mode)(ux_events_total{type="session_start"})
+021,pagination,ux_load_latency_seconds,0.29,sec,histogram_quantile(0.95, sum by (le, mode)(ux_load_latency_seconds_bucket))
+021,pagination,items_response_kb_per_session,19.17919921875,Kilobytes per session,sum by (mode)(items_response_bytes_total) / sum by (mode)(ux_events_total{type="session_start"}) / 1024
+022,pagination,http_request_duration_seconds,0.2775524475524475,sec,histogram_quantile(0.95, sum by (le, mode)(http_request_duration_seconds_bucket{route="/api/items"}))
+022,pagination,ux_load_latency_seconds,0.2162000000178814,sec,sum by (mode)(ux_load_latency_seconds_sum) / sum by (mode)(ux_load_latency_seconds_count)
+022,pagination,items_requests_per_session,21,Requests per session,sum by (mode)(items_requests_total) / sum by (mode)(ux_events_total{type="session_start"})
+022,pagination,ux_load_latency_seconds,0.285,sec,histogram_quantile(0.95, sum by (le, mode)(ux_load_latency_seconds_bucket))
+022,pagination,items_response_kb_per_session,39.08935546875,Kilobytes per session,sum by (mode)(items_response_bytes_total) / sum by (mode)(ux_events_total{type="session_start"}) / 1024
+023,pagination,http_request_duration_seconds,0.2773509933774834,sec,histogram_quantile(0.95, sum by (le, mode)(http_request_duration_seconds_bucket{route="/api/items"}))
+023,pagination,ux_load_latency_seconds,0.2162000000178814,sec,sum by (mode)(ux_load_latency_seconds_sum) / sum by (mode)(ux_load_latency_seconds_count)
+023,pagination,items_requests_per_session,21,Requests per session,sum by (mode)(items_requests_total) / sum by (mode)(ux_events_total{type="session_start"})
+023,pagination,ux_load_latency_seconds,0.29,sec,histogram_quantile(0.95, sum by (le, mode)(ux_load_latency_seconds_bucket))
+023,pagination,items_response_kb_per_session,38.36865234375,Kilobytes per session,sum by (mode)(items_response_bytes_total) / sum by (mode)(ux_events_total{type="session_start"}) / 1024
+024,pagination,http_request_duration_seconds,0.2777300613496932,sec,histogram_quantile(0.95, sum by (le, mode)(http_request_duration_seconds_bucket{route="/api/items"}))
+024,pagination,ux_load_latency_seconds,0.2162000000178814,sec,sum by (mode)(ux_load_latency_seconds_sum) / sum by (mode)(ux_load_latency_seconds_count)
+024,pagination,items_requests_per_session,26,Requests per session,sum by (mode)(items_requests_total) / sum by (mode)(ux_events_total{type="session_start"})
+024,pagination,ux_load_latency_seconds,0.29,sec,histogram_quantile(0.95, sum by (le, mode)(ux_load_latency_seconds_bucket))
+024,pagination,items_response_kb_per_session,38.64794921875,Kilobytes per session,sum by (mode)(items_response_bytes_total) / sum by (mode)(ux_events_total{type="session_start"}) / 1024
+025,pagination,http_request_duration_seconds,0.2787845303867403,sec,histogram_quantile(0.95, sum by (le, mode)(http_request_duration_seconds_bucket{route="/api/items"}))
+025,pagination,ux_load_latency_seconds,0.2162000000178814,sec,sum by (mode)(ux_load_latency_seconds_sum) / sum by (mode)(ux_load_latency_seconds_count)
+025,pagination,items_requests_per_session,25,Requests per session,sum by (mode)(items_requests_total) / sum by (mode)(ux_events_total{type="session_start"})
+025,pagination,ux_load_latency_seconds,0.285,sec,histogram_quantile(0.95, sum by (le, mode)(ux_load_latency_seconds_bucket))
+025,pagination,items_response_kb_per_session,38.17919921875,Kilobytes per session,sum by (mode)(items_response_bytes_total) / sum by (mode)(ux_events_total{type="session_start"}) / 1024
+026,infinite,http_request_duration_seconds,0.2779545454545454,sec,histogram_quantile(0.95, sum by (le, mode)(http_request_duration_seconds_bucket{route="/api/items"}))
+026,infinite,ux_load_latency_seconds,0.1544546391742746,sec,sum by (mode)(ux_load_latency_seconds_sum) / sum by (mode)(ux_load_latency_seconds_count)
+026,infinite,items_requests_per_session,32.333333333333336,Requests per session,sum by (mode)(items_requests_total) / sum by (mode)(ux_events_total{type="session_start"})
+026,infinite,ux_load_latency_seconds,0.28059999999999996,sec,histogram_quantile(0.95, sum by (le, mode)(ux_load_latency_seconds_bucket))
+026,infinite,items_response_kb_per_session,58.955078125,Kilobytes per session,sum by (mode)(items_response_bytes_total) / sum by (mode)(ux_events_total{type="session_start"}) / 1024
+027,infinite,http_request_duration_seconds,0.2812162162162162,sec,histogram_quantile(0.95, sum by (le, mode)(http_request_duration_seconds_bucket{route="/api/items"}))
+027,infinite,ux_load_latency_seconds,0.16049136690698948,sec,sum by (mode)(ux_load_latency_seconds_sum) / sum by (mode)(ux_load_latency_seconds_count)
+027,infinite,items_requests_per_session,34.75,Requests per session,sum by (mode)(items_requests_total) / sum by (mode)(ux_events_total{type="session_start"})
+027,infinite,ux_load_latency_seconds,0.28262499999999996,sec,histogram_quantile(0.95, sum by (le, mode)(ux_load_latency_seconds_bucket))
+027,infinite,items_response_kb_per_session,63.35595703125,Kilobytes per session,sum by (mode)(items_response_bytes_total) / sum by (mode)(ux_events_total{type="session_start"}) / 1024
+028,infinite,http_request_duration_seconds,0.2807446808510638,sec,histogram_quantile(0.95, sum by (le, mode)(http_request_duration_seconds_bucket{route="/api/items"}))
+028,infinite,ux_load_latency_seconds,0.16079779005445835,sec,sum by (mode)(ux_load_latency_seconds_sum) / sum by (mode)(ux_load_latency_seconds_count)
+028,infinite,items_requests_per_session,36.2,Requests per session,sum by (mode)(items_requests_total) / sum by (mode)(ux_events_total{type="session_start"})
+028,infinite,ux_load_latency_seconds,0.28259615384615383,sec,histogram_quantile(0.95, sum by (le, mode)(ux_load_latency_seconds_bucket))
+028,infinite,items_response_kb_per_session,65.996484375,Kilobytes per session,sum by (mode)(items_response_bytes_total) / sum by (mode)(ux_events_total{type="session_start"}) / 1024
+029,infinite,http_request_duration_seconds,0.28141666666666665,sec,histogram_quantile(0.95, sum by (le, mode)(http_request_duration_seconds_bucket{route="/api/items"}))
+029,infinite,ux_load_latency_seconds,0.16230313901035248,sec,sum by (mode)(ux_load_latency_seconds_sum) / sum by (mode)(ux_load_latency_seconds_count)
+029,infinite,items_requests_per_session,37.166666666666664,Requests per session,sum by (mode)(items_requests_total) / sum by (mode)(ux_events_total{type="session_start"})
+029,infinite,ux_load_latency_seconds,0.28335820895522384,sec,histogram_quantile(0.95, sum by (le, mode)(ux_load_latency_seconds_bucket))
+029,infinite,items_response_kb_per_session,67.7568359375,Kilobytes per session,sum by (mode)(items_response_bytes_total) / sum by (mode)(ux_events_total{type="session_start"}) / 1024
+030,infinite,http_request_duration_seconds,0.28209459459459457,sec,histogram_quantile(0.95, sum by (le, mode)(http_request_duration_seconds_bucket{route="/api/items"}))
+030,infinite,ux_load_latency_seconds,0.16339094339271773,sec,sum by (mode)(ux_load_latency_seconds_sum) / sum by (mode)(ux_load_latency_seconds_count)
+030,infinite,items_requests_per_session,37.857142857142854,Requests per session,sum by (mode)(items_requests_total) / sum by (mode)(ux_events_total{type="session_start"})
+030,infinite,ux_load_latency_seconds,0.283641975308642,sec,histogram_quantile(0.95, sum by (le, mode)(ux_load_latency_seconds_bucket))
+030,infinite,items_response_kb_per_session,69.01422991071429,Kilobytes per session,sum by (mode)(items_response_bytes_total) / sum by (mode)(ux_events_total{type="session_start"}) / 1024
+031,infinite,http_request_duration_seconds,0.28294444444444444,sec,histogram_quantile(0.95, sum by (le, mode)(http_request_duration_seconds_bucket{route="/api/items"}))
+031,infinite,ux_load_latency_seconds,0.16382833876011824,sec,sum by (mode)(ux_load_latency_seconds_sum) / sum by (mode)(ux_load_latency_seconds_count)
+031,infinite,items_requests_per_session,38.375,Requests per session,sum by (mode)(items_requests_total) / sum by (mode)(ux_events_total{type="session_start"})
+031,infinite,ux_load_latency_seconds,0.28417525773195873,sec,histogram_quantile(0.95, sum by (le, mode)(ux_load_latency_seconds_bucket))
+031,infinite,items_response_kb_per_session,69.957275390625,Kilobytes per session,sum by (mode)(items_response_bytes_total) / sum by (mode)(ux_events_total{type="session_start"}) / 1024
+032,infinite,http_request_duration_seconds,0.28255,sec,histogram_quantile(0.95, sum by (le, mode)(http_request_duration_seconds_bucket{route="/api/items"}))
+032,infinite,ux_load_latency_seconds,0.16283839541212547,sec,sum by (mode)(ux_load_latency_seconds_sum) / sum by (mode)(ux_load_latency_seconds_count)
+032,infinite,items_requests_per_session,38.77777777777778,Requests per session,sum by (mode)(items_requests_total) / sum by (mode)(ux_events_total{type="session_start"})
+032,infinite,ux_load_latency_seconds,0.2839908256880734,sec,histogram_quantile(0.95, sum by (le, mode)(ux_load_latency_seconds_bucket))
+032,infinite,items_response_kb_per_session,70.69075520833333,Kilobytes per session,sum by (mode)(items_response_bytes_total) / sum by (mode)(ux_events_total{type="session_start"}) / 1024
+033,infinite,http_request_duration_seconds,0.2787845653567403,sec,histogram_quantile(0.95, sum by (le, mode)(http_request_duration_seconds_bucket{route="/api/items"}))
+033,infinite,ux_load_latency_seconds,0.16283839541246347,sec,sum by (mode)(ux_load_latency_seconds_sum) / sum by (mode)(ux_load_latency_seconds_count)
+033,infinite,items_requests_per_session,38.7777666667778,Requests per session,sum by (mode)(items_requests_total) / sum by (mode)(ux_events_total{type="session_start"})
+033,infinite,ux_load_latency_seconds,0.283990825689876534,sec,histogram_quantile(0.95, sum by (le, mode)(ux_load_latency_seconds_bucket))
+033,infinite,items_response_kb_per_session,71.69075520833333,Kilobytes per session,sum by (mode)(items_response_bytes_total) / sum by (mode)(ux_events_total{type="session_start"}) / 1024
+034,infinite,http_request_duration_seconds,0.2787845303867403,sec,histogram_quantile(0.95, sum by (le, mode)(http_request_duration_seconds_bucket{route="/api/items"}))
+034,infinite,ux_load_latency_seconds,0.16283839541212547,sec,sum by (mode)(ux_load_latency_seconds_sum) / sum by (mode)(ux_load_latency_seconds_count)
+034,infinite,items_requests_per_session,38.77777777777778,Requests per session,sum by (mode)(items_requests_total) / sum by (mode)(ux_events_total{type="session_start"})
+034,infinite,ux_load_latency_seconds,0.2839908256880734,sec,histogram_quantile(0.95, sum by (le, mode)(ux_load_latency_seconds_bucket))
+034,infinite,items_response_kb_per_session,70.69075520833333,Kilobytes per session,sum by (mode)(items_response_bytes_total) / sum by (mode)(ux_events_total{type="session_start"}) / 1024
+035,infinite,http_request_duration_seconds,0.2747145303867403,sec,histogram_quantile(0.95, sum by (le, mode)(http_request_duration_seconds_bucket{route="/api/items"}))
+035,infinite,ux_load_latency_seconds,0.16283831771212547,sec,sum by (mode)(ux_load_latency_seconds_sum) / sum by (mode)(ux_load_latency_seconds_count)
+035,infinite,items_requests_per_session,38.8,Requests per session,sum by (mode)(items_requests_total) / sum by (mode)(ux_events_total{type="session_start"})
+035,infinite,ux_load_latency_seconds,0.2839908256880734,sec,histogram_quantile(0.95, sum by (le, mode)(ux_load_latency_seconds_bucket))
+035,infinite,items_response_kb_per_session,73.6907552084444,Kilobytes per session,sum by (mode)(items_response_bytes_total) / sum by (mode)(ux_events_total{type="session_start"}) / 1024
+036,infinite,http_request_duration_seconds,0.2787845303867403,sec,histogram_quantile(0.95, sum by (le, mode)(http_request_duration_seconds_bucket{route="/api/items"}))
+036,infinite,ux_load_latency_seconds,0.16283839541212547,sec,sum by (mode)(ux_load_latency_seconds_sum) / sum by (mode)(ux_load_latency_seconds_count)
+036,infinite,items_requests_per_session,38.77777777777778,Requests per session,sum by (mode)(items_requests_total) / sum by (mode)(ux_events_total{type="session_start"})
+036,infinite,ux_load_latency_seconds,0.2839908256880734,sec,histogram_quantile(0.95, sum by (le, mode)(ux_load_latency_seconds_bucket))
+036,infinite,items_response_kb_per_session,70.69075520833333,Kilobytes per session,sum by (mode)(items_response_bytes_total) / sum by (mode)(ux_events_total{type="session_start"}) / 1024
+037,infinite,http_request_duration_seconds,0.2787845303896839,sec,histogram_quantile(0.95, sum by (le, mode)(http_request_duration_seconds_bucket{route="/api/items"}))
+037,infinite,ux_load_latency_seconds,0.16283839541212547,sec,sum by (mode)(ux_load_latency_seconds_sum) / sum by (mode)(ux_load_latency_seconds_count)
+037,infinite,items_requests_per_session,39.1,Requests per session,sum by (mode)(items_requests_total) / sum by (mode)(ux_events_total{type="session_start"})
+037,infinite,ux_load_latency_seconds,0.2839900955450734,sec,histogram_quantile(0.95, sum by (le, mode)(ux_load_latency_seconds_bucket))
+037,infinite,items_response_kb_per_session,73.690755209956333,Kilobytes per session,sum by (mode)(items_response_bytes_total) / sum by (mode)(ux_events_total{type="session_start"}) / 1024
+038,infinite,http_request_duration_seconds,0.28314655172413794,sec,histogram_quantile(0.95, sum by (le, mode)(http_request_duration_seconds_bucket{route="/api/items"}))
+038,infinite,ux_load_latency_seconds,0.1631378516583797,sec,sum by (mode)(ux_load_latency_seconds_sum) / sum by (mode)(ux_load_latency_seconds_count)
+038,infinite,items_requests_per_session,39.1,Requests per session,sum by (mode)(items_requests_total) / sum by (mode)(ux_events_total{type="session_start"})
+038,infinite,ux_load_latency_seconds,0.28436,sec,histogram_quantile(0.95, sum by (le, mode)(ux_load_latency_seconds_bucket))
+038,infinite,items_response_kb_per_session,71.2775390625,Kilobytes per session,sum by (mode)(items_response_bytes_total) / sum by (mode)(ux_events_total{type="session_start"}) / 1024
+039,infinite,http_request_duration_seconds,0.2828174603174603,sec,histogram_quantile(0.95, sum by (le, mode)(http_request_duration_seconds_bucket{route="/api/items"}))
+039,infinite,ux_load_latency_seconds,0.16258937644022442,sec,sum by (mode)(ux_load_latency_seconds_sum) / sum by (mode)(ux_load_latency_seconds_count)
+039,infinite,items_requests_per_session,39.36363636363637,Requests per session,sum by (mode)(items_requests_total) / sum by (mode)(ux_events_total{type="session_start"})
+039,infinite,ux_load_latency_seconds,0.2839629629629629,sec,histogram_quantile(0.95, sum by (le, mode)(ux_load_latency_seconds_bucket))
+039,infinite,items_response_kb_per_session,71.75763494318181,Kilobytes per session,sum by (mode)(items_response_bytes_total) / sum by (mode)(ux_events_total{type="session_start"}) / 1024
+040,infinite,http_request_duration_seconds,0.2837328767123288,sec,histogram_quantile(0.95, sum by (le, mode)(http_request_duration_seconds_bucket{route="/api/items"}))
+040,infinite,ux_load_latency_seconds,0.1643368421037574,sec,sum by (mode)(ux_load_latency_seconds_sum) / sum by (mode)(ux_load_latency_seconds_count)
+040,infinite,items_requests_per_session,39.583333333333336,Requests per session,sum by (mode)(items_requests_total) / sum by (mode)(ux_events_total{type="session_start"})
+040,infinite,ux_load_latency_seconds,0.284775641025641,sec,histogram_quantile(0.95, sum by (le, mode)(ux_load_latency_seconds_bucket))
+040,infinite,items_response_kb_per_session,72.15771484375,Kilobytes per session,sum by (mode)(items_response_bytes_total) / sum by (mode)(ux_events_total{type="session_start"}) / 1024
+041,infinite,http_request_duration_seconds,0.2832142857142857,sec,histogram_quantile(0.95, sum by (le, mode)(http_request_duration_seconds_bucket{route="/api/items"}))
+041,infinite,ux_load_latency_seconds,0.16368239845136615,sec,sum by (mode)(ux_load_latency_seconds_sum) / sum by (mode)(ux_load_latency_seconds_count)
+041,infinite,items_requests_per_session,39.76923076923077,Requests per session,sum by (mode)(items_requests_total) / sum by (mode)(ux_events_total{type="session_start"})
+041,infinite,ux_load_latency_seconds,0.2843333333333333,sec,histogram_quantile(0.95, sum by (le, mode)(ux_load_latency_seconds_bucket))
+041,infinite,items_response_kb_per_session,72.49624399038461,Kilobytes per session,sum by (mode)(items_response_bytes_total) / sum by (mode)(ux_events_total{type="session_start"}) / 1024
+042,infinite,http_request_duration_seconds,0.28321428897862857,sec,histogram_quantile(0.95, sum by (le, mode)(http_request_duration_seconds_bucket{route="/api/items"}))
+042,infinite,ux_load_latency_seconds,0.16368232545136615,sec,sum by (mode)(ux_load_latency_seconds_sum) / sum by (mode)(ux_load_latency_seconds_count)
+042,infinite,items_requests_per_session,39.7,Requests per session,sum by (mode)(items_requests_total) / sum by (mode)(ux_events_total{type="session_start"})
+042,infinite,ux_load_latency_seconds,0.284344444,sec,histogram_quantile(0.95, sum by (le, mode)(ux_load_latency_seconds_bucket))
+042,infinite,items_response_kb_per_session,73.49624399032661,Kilobytes per session,sum by (mode)(items_response_bytes_total) / sum by (mode)(ux_events_total{type="session_start"}) / 1024
+043,infinite,http_request_duration_seconds,0.2832142857142844,sec,histogram_quantile(0.95, sum by (le, mode)(http_request_duration_seconds_bucket{route="/api/items"}))
+043,infinite,ux_load_latency_seconds,0.21620000001543209,sec,sum by (mode)(ux_load_latency_seconds_sum) / sum by (mode)(ux_load_latency_seconds_count)
+043,infinite,items_requests_per_session,40,Requests per session,sum by (mode)(items_requests_total) / sum by (mode)(ux_events_total{type="session_start"})
+043,infinite,ux_load_latency_seconds,0.2843333333333333,sec,histogram_quantile(0.95, sum by (le, mode)(ux_load_latency_seconds_bucket))
+043,infinite,items_response_kb_per_session,73.49624399038461,Kilobytes per session,sum by (mode)(items_response_bytes_total) / sum by (mode)(ux_events_total{type="session_start"}) / 1024
+044,infinite,http_request_duration_seconds,0.2098142857142857,sec,histogram_quantile(0.95, sum by (le, mode)(http_request_duration_seconds_bucket{route="/api/items"}))
+044,infinite,ux_load_latency_seconds,0.16368239845136615,sec,sum by (mode)(ux_load_latency_seconds_sum) / sum by (mode)(ux_load_latency_seconds_count)
+044,infinite,items_requests_per_session,39.76923076923077,Requests per session,sum by (mode)(items_requests_total) / sum by (mode)(ux_events_total{type="session_start"})
+044,infinite,ux_load_latency_seconds,0.2843333333333333,sec,histogram_quantile(0.95, sum by (le, mode)(ux_load_latency_seconds_bucket))
+044,infinite,items_response_kb_per_session,72.49624399038461,Kilobytes per session,sum by (mode)(items_response_bytes_total) / sum by (mode)(ux_events_total{type="session_start"}) / 1024
+045,infinite,http_request_duration_seconds,0.28263975155279497,sec,histogram_quantile(0.95, sum by (le, mode)(http_request_duration_seconds_bucket{route="/api/items"}))
+045,infinite,ux_load_latency_seconds,0.16279660107240695,sec,sum by (mode)(ux_load_latency_seconds_sum) / sum by (mode)(ux_load_latency_seconds_count)
+045,infinite,items_requests_per_session,39.92857142857143,Requests per session,sum by (mode)(items_requests_total) / sum by (mode)(ux_events_total{type="session_start"})
+045,infinite,ux_load_latency_seconds,0.2838439306358381,sec,histogram_quantile(0.95, sum by (le, mode)(ux_load_latency_seconds_bucket))
+045,infinite,items_response_kb_per_session,72.78641183035714,Kilobytes per session,sum by (mode)(items_response_bytes_total) / sum by (mode)(ux_events_total{type="session_start"}) / 1024
+046,infinite,http_request_duration_seconds,0.28263005780346817,sec,histogram_quantile(0.95, sum by (le, mode)(http_request_duration_seconds_bucket{route="/api/items"}))
+046,infinite,ux_load_latency_seconds,0.16316938435773484,sec,sum by (mode)(ux_load_latency_seconds_sum) / sum by (mode)(ux_load_latency_seconds_count)
+046,infinite,items_requests_per_session,40.06666666666667,Requests per session,sum by (mode)(items_requests_total) / sum by (mode)(ux_events_total{type="session_start"})
+046,infinite,ux_load_latency_seconds,0.2837567567567567,sec,histogram_quantile(0.95, sum by (le, mode)(ux_load_latency_seconds_bucket))
+046,infinite,items_response_kb_per_session,73.037890625,Kilobytes per session,sum by (mode)(items_response_bytes_total) / sum by (mode)(ux_events_total{type="session_start"}) / 1024
+047,infinite,http_request_duration_seconds,0.28243169398907103,sec,histogram_quantile(0.95, sum by (le, mode)(http_request_duration_seconds_bucket{route="/api/items"}))
+047,infinite,ux_load_latency_seconds,0.16247511663944872,sec,sum by (mode)(ux_load_latency_seconds_sum) / sum by (mode)(ux_load_latency_seconds_count)
+047,infinite,items_requests_per_session,40.1875,Requests per session,sum by (mode)(items_requests_total) / sum by (mode)(ux_events_total{type="session_start"})
+047,infinite,ux_load_latency_seconds,0.2835128205128205,sec,histogram_quantile(0.95, sum by (le, mode)(ux_load_latency_seconds_bucket))
+047,infinite,items_response_kb_per_session,73.2579345703125,Kilobytes per session,sum by (mode)(items_response_bytes_total) / sum by (mode)(ux_events_total{type="session_start"}) / 1024
+048,infinite,http_request_duration_seconds,0.2824358974358974,sec,histogram_quantile(0.95, sum by (le, mode)(http_request_duration_seconds_bucket{route="/api/items"}))
+048,infinite,ux_load_latency_seconds,0.16219649634918165,sec,sum by (mode)(ux_load_latency_seconds_sum) / sum by (mode)(ux_load_latency_seconds_count)
+048,infinite,items_requests_per_session,40.294117647058826,Requests per session,sum by (mode)(items_requests_total) / sum by (mode)(ux_events_total{type="session_start"})
+048,infinite,ux_load_latency_seconds,0.28345410628019324,sec,histogram_quantile(0.95, sum by (le, mode)(ux_load_latency_seconds_bucket))
+048,infinite,items_response_kb_per_session,73.45209099264706,Kilobytes per session,sum by (mode)(items_response_bytes_total) / sum by (mode)(ux_events_total{type="session_start"}) / 1024
+049,infinite,http_request_duration_seconds,0.28293427230046947,sec,histogram_quantile(0.95, sum by (le, mode)(http_request_duration_seconds_bucket{route="/api/items"}))
+049,infinite,ux_load_latency_seconds,0.16319325997101403,sec,sum by (mode)(ux_load_latency_seconds_sum) / sum by (mode)(ux_load_latency_seconds_count)
+049,infinite,items_requests_per_session,40.388888888888886,Requests per session,sum by (mode)(items_requests_total) / sum by (mode)(ux_events_total{type="session_start"})
+049,infinite,ux_load_latency_seconds,0.28384444444444445,sec,histogram_quantile(0.95, sum by (le, mode)(ux_load_latency_seconds_bucket))
+049,infinite,items_response_kb_per_session,73.62467447916667,Kilobytes per session,sum by (mode)(items_response_bytes_total) / sum by (mode)(ux_events_total{type="session_start"}) / 1024
+050,infinite,http_request_duration_seconds,0.2828348214285714,sec,histogram_quantile(0.95, sum by (le, mode)(http_request_duration_seconds_bucket{route="/api/items"}))
+050,infinite,ux_load_latency_seconds,0.16258088426425657,sec,sum by (mode)(ux_load_latency_seconds_sum) / sum by (mode)(ux_load_latency_seconds_count)
+050,infinite,items_requests_per_session,40.473684210526315,Requests per session,sum by (mode)(items_requests_total) / sum by (mode)(ux_events_total{type="session_start"})
+050,infinite,ux_load_latency_seconds,0.28384453781512603,sec,histogram_quantile(0.95, sum by (le, mode)(ux_load_latency_seconds_bucket))
+050,infinite,items_response_kb_per_session,73.77909128289474,Kilobytes per session,sum by (mode)(items_response_bytes_total) / sum by (mode)(ux_events_total{type="session_start"}) / 1024

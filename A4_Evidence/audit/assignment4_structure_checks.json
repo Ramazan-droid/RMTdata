@@ -1,0 +1,26 @@
+{
+  "authority": "RMT_Assignment_4.pdf, pages 1\u20132, 5\u20136 and 8",
+  "header_matches_assignment": true,
+  "required_table_schemas_match": true,
+  "all_cells_top_left": true,
+  "abstract_one_continuous_paragraph_in_table": true,
+  "all_original_A2_retained_sources_accounted_for_in_Task8": 8,
+  "all_main_tables_with_interpretation": 12,
+  "RQ_and_ER_preserved_verbatim": true,
+  "image_bytes_unchanged": true,
+  "reference_title_links_retained": true,
+  "page_format": "A4; Times New Roman; black grids and gray column headings",
+  "personal_style_override": "explicit user request to follow the assignment visual template",
+  "counts": {
+    "abstract_words": 133,
+    "results_words_excluding_tables_captions_links": 1691,
+    "conclusion_words": 368,
+    "results_figures": 7,
+    "results_graphs": 7,
+    "results_tables": 12,
+    "all_figures": 9,
+    "total_tables": 26,
+    "numbered_tables": 22
+  },
+  "remaining_submission_gap": "supplementary evidence cloud publication pending; no new files in public repository on 30 October 2026"
+}

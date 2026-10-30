@@ -1,0 +1,91 @@
+run_id,website,page_type,strategy,metric_name,value,unit,description,source_line,original_value,correction,primary_include
+1,Amazon,pagination,mobile,LCP,1.4,s,Largest Contentful Paint,2,1.4,none,True
+1,Amazon,pagination,mobile,FCP,1.1,s,First Contentful Paint,3,1.1,none,True
+1,Amazon,pagination,mobile,TTFB,0.7,s,Time to First Byte,4,0.7,none,True
+1,Amazon,pagination,mobile,CLS,0.01,score,Cumulative Layout Shift,5,0.01,none,True
+1,Amazon,pagination,mobile,INP,177.0,ms,Interaction to Next Paint,6,177.0,none,True
+1,Amazon,pagination,desktop,LCP,1.3,s,Largest Contentful Paint,7,1.3,none,True
+1,Amazon,pagination,desktop,FCP,0.9,s,First Contentful Paint,8,0.9,none,True
+1,Amazon,pagination,desktop,TTFB,0.5,s,Time to First Byte,9,0.5,none,True
+1,Amazon,pagination,desktop,CLS,0.06,score,Cumulative Layout Shift,10,0.06,none,True
+1,Amazon,pagination,desktop,INP,143.0,ms,Interaction to Next Paint,11,143.0,none,True
+3,eBay,pagination,mobile,LCP,2.2,s,Largest Contentful Paint,22,2.2,none,True
+3,eBay,pagination,mobile,FCP,1.4,s,First Contentful Paint,23,1.4,none,True
+3,eBay,pagination,mobile,TTFB,0.9,s,Time to First Byte,24,0.9,none,True
+3,eBay,pagination,mobile,CLS,0.02,score,Cumulative Layout Shift,25,0.02,none,True
+3,eBay,pagination,mobile,INP,320.0,ms,Interaction to Next Paint,26,320.0,none,True
+3,eBay,pagination,desktop,LCP,2.2,s,Largest Contentful Paint,27,2.2,none,True
+3,eBay,pagination,desktop,FCP,1.1,s,First Contentful Paint,28,1.1,none,True
+3,eBay,pagination,desktop,TTFB,0.7,s,Time to First Byte,29,0.7,none,True
+3,eBay,pagination,desktop,CLS,0.0,score,Cumulative Layout Shift,30,0.0,none,True
+3,eBay,pagination,desktop,INP,253.0,ms,Interaction to Next Paint,31,253.0,none,True
+4,Wikipedia,pagination,mobile,LCP,1.3,s,Largest Contentful Paint,32,1.3,none,True
+4,Wikipedia,pagination,mobile,FCP,1.2,s,First Contentful Paint,33,1.2,none,True
+4,Wikipedia,pagination,mobile,TTFB,0.5,s,Time to First Byte,34,0.5,none,True
+4,Wikipedia,pagination,mobile,CLS,0.0,score,Cumulative Layout Shift,35,0.0,none,True
+4,Wikipedia,pagination,mobile,INP,99.0,ms,Interaction to Next Paint,36,99.0,none,True
+4,Wikipedia,pagination,desktop,LCP,1.2,s,Largest Contentful Paint,37,1.2,none,True
+4,Wikipedia,pagination,desktop,FCP,1.2,s,First Contentful Paint,38,1.2,none,True
+4,Wikipedia,pagination,desktop,TTFB,0.4,s,Time to First Byte,39,0.4,none,True
+4,Wikipedia,pagination,desktop,CLS,0.0,score,Cumulative Layout Shift,40,0.0,none,True
+4,Wikipedia,pagination,desktop,INP,53.0,ms,Interaction to Next Paint,41,53.0,none,True
+5,GitHub,pagination,mobile,LCP,4.1,s,Largest Contentful Paint,42,4.1,none,True
+5,GitHub,pagination,mobile,FCP,2.7,s,First Contentful Paint,43,2.7,none,True
+5,GitHub,pagination,mobile,TTFB,1.7,s,Time to First Byte,44,1.7,none,True
+5,GitHub,pagination,mobile,CLS,0.29,score,Cumulative Layout Shift,45,0.27,0.27 to 0.29; screenshots.pdf page 8 upper image,True
+5,GitHub,pagination,mobile,INP,304.0,ms,Interaction to Next Paint,46,304.0,none,True
+5,GitHub,pagination,desktop,LCP,2.6,s,Largest Contentful Paint,47,2.6,none,True
+5,GitHub,pagination,desktop,FCP,1.9,s,First Contentful Paint,48,1.9,none,True
+5,GitHub,pagination,desktop,TTFB,1.5,s,Time to First Byte,49,1.5,none,True
+5,GitHub,pagination,desktop,CLS,0.08,score,Cumulative Layout Shift,50,0.08,none,True
+5,GitHub,pagination,desktop,INP,64.0,ms,Interaction to Next Paint,51,64.0,none,True
+6,Instagram,infinite_scroll,mobile,LCP,4.7,s,Largest Contentful Paint,52,4.7,none,True
+6,Instagram,infinite_scroll,mobile,FCP,1.7,s,First Contentful Paint,53,1.7,none,True
+6,Instagram,infinite_scroll,mobile,TTFB,0.9,s,Time to First Byte,54,0.9,none,True
+6,Instagram,infinite_scroll,mobile,CLS,0.07,score,Cumulative Layout Shift,55,0.07,none,True
+6,Instagram,infinite_scroll,mobile,INP,425.0,ms,Interaction to Next Paint,56,425.0,none,True
+6,Instagram,infinite_scroll,desktop,LCP,3.6,s,Largest Contentful Paint,57,3.6,none,True
+6,Instagram,infinite_scroll,desktop,FCP,0.7,s,First Contentful Paint,58,0.7,none,True
+6,Instagram,infinite_scroll,desktop,TTFB,0.6,s,Time to First Byte,59,0.6,none,True
+6,Instagram,infinite_scroll,desktop,CLS,0.06,score,Cumulative Layout Shift,60,0.06,none,True
+6,Instagram,infinite_scroll,desktop,INP,202.0,ms,Interaction to Next Paint,61,202.0,none,True
+7,TikTok,infinite_scroll,mobile,LCP,6.3,s,Largest Contentful Paint,62,6.3,none,True
+7,TikTok,infinite_scroll,mobile,FCP,2.7,s,First Contentful Paint,63,2.7,none,True
+7,TikTok,infinite_scroll,mobile,TTFB,1.6,s,Time to First Byte,64,1.6,none,True
+7,TikTok,infinite_scroll,mobile,CLS,0.0,score,Cumulative Layout Shift,65,0.0,none,True
+7,TikTok,infinite_scroll,mobile,INP,608.0,ms,Interaction to Next Paint,66,608.0,none,True
+7,TikTok,infinite_scroll,desktop,LCP,3.2,s,Largest Contentful Paint,67,3.2,none,True
+7,TikTok,infinite_scroll,desktop,FCP,2.3,s,First Contentful Paint,68,2.3,none,True
+7,TikTok,infinite_scroll,desktop,TTFB,1.0,s,Time to First Byte,69,1.0,none,True
+7,TikTok,infinite_scroll,desktop,CLS,0.12,score,Cumulative Layout Shift,70,0.12,none,True
+7,TikTok,infinite_scroll,desktop,INP,415.0,ms,Interaction to Next Paint,71,415.0,none,True
+8,Pinterest,infinite_scroll,mobile,LCP,5.4,s,Largest Contentful Paint,72,5.4,none,True
+8,Pinterest,infinite_scroll,mobile,FCP,4.2,s,First Contentful Paint,73,4.2,none,True
+8,Pinterest,infinite_scroll,mobile,TTFB,1.3,s,Time to First Byte,74,1.3,none,True
+8,Pinterest,infinite_scroll,mobile,CLS,0.12,score,Cumulative Layout Shift,75,0.12,none,True
+8,Pinterest,infinite_scroll,mobile,INP,693.0,ms,Interaction to Next Paint,76,693.0,none,True
+8,Pinterest,infinite_scroll,desktop,LCP,3.4,s,Largest Contentful Paint,77,3.4,none,True
+8,Pinterest,infinite_scroll,desktop,FCP,2.6,s,First Contentful Paint,78,2.6,none,True
+8,Pinterest,infinite_scroll,desktop,TTFB,0.6,ms,Time to First Byte,79,0.6,none,True
+8,Pinterest,infinite_scroll,desktop,CLS,0.07,score,Cumulative Layout Shift,80,0.07,none,True
+8,Pinterest,infinite_scroll,desktop,INP,458.0,ms,Interaction to Next Paint,81,458.0,none,True
+9,YouTube,infinite_scroll,mobile,LCP,4.9,s,Largest Contentful Paint,82,4.9,none,True
+9,YouTube,infinite_scroll,mobile,FCP,3.2,s,First Contentful Paint,83,3.2,none,True
+9,YouTube,infinite_scroll,mobile,TTFB,0.9,s,Time to First Byte,84,0.9,none,True
+9,YouTube,infinite_scroll,mobile,CLS,0.81,score,Cumulative Layout Shift,85,0.81,none,True
+9,YouTube,infinite_scroll,mobile,INP,288.0,ms,Interaction to Next Paint,86,288.0,none,True
+9,YouTube,infinite_scroll,desktop,LCP,4.9,s,Largest Contentful Paint,87,4.9,none,True
+9,YouTube,infinite_scroll,desktop,FCP,2.9,s,First Contentful Paint,88,2.9,none,True
+9,YouTube,infinite_scroll,desktop,TTFB,0.5,s,Time to First Byte,89,0.5,none,True
+9,YouTube,infinite_scroll,desktop,CLS,0.48,score,Cumulative Layout Shift,90,0.48,none,True
+9,YouTube,infinite_scroll,desktop,INP,276.0,ms,Interaction to Next Paint,91,276.0,none,True
+10,Facebook,infinite_scroll,mobile,LCP,3.6,s,Largest Contentful Paint,92,3.6,none,True
+10,Facebook,infinite_scroll,mobile,FCP,1.7,s,First Contentful Paint,93,1.7,none,True
+10,Facebook,infinite_scroll,mobile,TTFB,0.8,s,Time to First Byte,94,0.8,none,True
+10,Facebook,infinite_scroll,mobile,CLS,0.01,score,Cumulative Layout Shift,95,0.01,none,True
+10,Facebook,infinite_scroll,mobile,INP,291.0,ms,Interaction to Next Paint,96,291.0,none,True
+10,Facebook,infinite_scroll,desktop,LCP,2.9,s,Largest Contentful Paint,97,2.9,none,True
+10,Facebook,infinite_scroll,desktop,FCP,1.3,s,First Contentful Paint,98,1.3,none,True
+10,Facebook,infinite_scroll,desktop,TTFB,0.8,s,Time to First Byte,99,0.8,none,True
+10,Facebook,infinite_scroll,desktop,CLS,0.09,score,Cumulative Layout Shift,100,0.09,none,True
+10,Facebook,infinite_scroll,desktop,INP,256.0,ms,Interaction to Next Paint,101,256.0,none,True

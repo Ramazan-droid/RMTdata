@@ -1,0 +1,22 @@
+{
+  "active_scholarly_full_texts": 11,
+  "official_documentation_refs": 5,
+  "alphabetical_references": true,
+  "full_text_hyperlinks_present": true,
+  "original_A2_candidates_accounted_for": 10,
+  "tables_with_connected_interpretation": 19,
+  "body_paragraphs_over_75_words": 1,
+  "max_paragraph_words_including_abstract": 133,
+  "RQ_and_ER_exact_preserved": "checked by package_revised.py",
+  "rendering": "not available: LibreOffice soffice.exe missing",
+  "counts": {
+    "abstract_words": 133,
+    "results_words_excluding_tables_captions_links": 1634,
+    "conclusion_words": 368,
+    "results_figures": 7,
+    "results_graphs": 7,
+    "results_tables": 10,
+    "all_figures": 9,
+    "total_tables": 19
+  }
+}
